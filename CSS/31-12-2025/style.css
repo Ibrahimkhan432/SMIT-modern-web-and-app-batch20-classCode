@@ -1,0 +1,40 @@
+/* inline css <h1 style> 
+        <style> internal css
+            link - external css */
+
+/* css variables */
+:root{
+    --color: blue;
+    --xsize: 50px;
+    --msize: 50px;
+    --lsize: 100px;
+    /* global variables */
+}
+
+p {
+    /* local variable */
+    --color:blue;
+   color:var(--color);
+   border-color: var(--color);
+   background-color:var(--color);
+}
+
+h1{
+
+font-size: var(--lsize)
+}
+
+h1,p,div {
+background-color:var(--meracolor);
+  background-color: green;
+  border-color: green;
+  font-size: var(--size);
+}
+
+#head {
+  color: red;
+}
+div{
+    color: var(--mygreencolor);
+}
+
