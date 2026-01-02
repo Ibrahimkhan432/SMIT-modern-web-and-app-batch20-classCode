@@ -1,0 +1,55 @@
+/* @import url('./typography.css'); */
+*{
+    color:blue;
+}
+:root {
+    --color: red;
+  /* --primary: blue;
+  --fixedSize: 70px; */
+}
+h3 {
+  color: black;
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+}
+p {
+  color: var(--primary);
+}
+
+h3 {
+  /* local scope(variable) */
+  --myGreen: BlueViolet;
+  color: white;
+  border-color: var(--myGreen);
+  background-color: rgb(9, 218, 9);
+}
+.cl {
+  color: pink;
+}
+.cl2 {
+  font-size: var(--fixedSize);
+  color: var(--myGreen);
+}
+img:hover {
+  /* transform: scaleY(2);
+  transition: transform 10s ease-in-out; */
+  /* width: 700px;
+  transition: width 3s; */
+}
+h1{
+    /* color: red; */
+    color: var(--color);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, p{
+    background-color: aqua;
+}
+h2{
+color: orange;
+}
+p.head{
+    color: black;
+}
+div~p{
+ color: purple;   
+}
