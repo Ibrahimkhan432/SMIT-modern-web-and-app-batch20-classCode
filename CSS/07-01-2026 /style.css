@@ -1,0 +1,15 @@
+
+@import url('./font/NotoNastaliqUrdu-VariableFont_wght.ttf');
+
+
+
+h1{
+  color: red;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  /* font-weight: lighter;
+  font-style: oblique; */
+  /* font-family: sans-serif; */
+font-family: "Noto Nastaliq Urdu", serif;
+  /* letter-spacing: 10px;
+  word-spacing: 40px; */
+}
