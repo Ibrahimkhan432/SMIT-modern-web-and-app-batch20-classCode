@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Creepster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ /* body{
+  font-size: 16px;
+} */
+
+/* p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%
+  font-size: 12px;
+} */
+/* div{
+  font-size: 50%;
+}  */
+/* p{
+  font-size:16px
+} */
+/* h1{ */
+/* font-size: 200%; */
+/* font-size: 32px; */
+/* font-size: 2em */
+/* } */
+/* #main{
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+#inner{
+  width: 200px; 
+  height: 200px;
+  background-color: blue;
+} */
+p{
+font-family: "Playfair Display", serif;
+font-weight: bold;
+}
+/* p::first-letter{
+color: red;
+} */
+p{
+  /* text-transform: capitalize; */
+  /* text-transform: uppercase; */
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  line-height: 100%;
+}
+a{
+  text-decoration: none;
+}
+#para{
+  text-align: center;
+}
+#nav{
+  text-align: center;
+}
