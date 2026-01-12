@@ -1,0 +1,32 @@
+#indent{
+  text-indent: 30px;
+  text-shadow: 20px 20px 5px rgba(255,30,100,1); 
+}
+/* https://cssgenerator.org/box-shadow-css-generator.html */
+
+/* p::first-letter{
+  color: red;
+  font-size: 40px;
+} */
+p::first-letter{
+  text-transform: capitalize;
+  color: red;
+  font-size: 40px;
+}
+h2::first-letter{
+  text-transform: capitalize;
+  color: red;
+  font-size: 40px;
+}
+a{
+  color: pink;
+    text-decoration: none;
+}
+a:visited{
+  color: green;
+
+}
+input:focus{
+  background-color: blue;
+  /* color: white; */
+}
