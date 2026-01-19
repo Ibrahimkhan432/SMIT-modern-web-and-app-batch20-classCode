@@ -1,0 +1,105 @@
+
+:root{
+    --titleSize:40px
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 60px; */
+    padding: 10px 30px ;
+}
+.logo{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 35%;
+    font-size: var(--titleSize);
+    color: #0D5EBA;
+    text-transform: uppercase;
+}
+.list{
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 60%;
+    /* min-width: 60%; */
+    text-align: right;
+    /* margin-left: 100px; */
+    /* margin-right: 0px; */
+}
+li{
+    display: inline;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.hero{
+    /* border: 2px solid black; */
+    width: 100%;
+
+}
+.hero > img{
+    width: 100%;
+}
+.cardsContainer{
+    /* border: 5px solid red; */
+    width: 90%;
+    margin: 30px auto;
+}
+.card{
+    width: 260px;
+    height: 260px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 60px;
+}
+#title{
+margin-bottom: 30px;
+font-size: var(--titleSize);
+margin-left: 60px;
+}
+#cardTitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
+.leftDiv{
+    border: 2px solid red;
+    width: 49%;
+    display: inline-block;
+    background-color:#0D5EBA ;
+    height: 500px;
+}
+.rightDiv{
+    border: 2px solid red;
+    width: 49%;
+    display: inline-block;
+
+}
+.innerLeft{
+    /* border: 2px solid white; */
+    /* background-color: white; */
+    width: 500px ;
+    height: 300px;
+    margin:70px auto;
+    color: white;
+}
+.innerLeft h2{
+font-size: 40px;
+margin: 10px;
+
+}
+.innerLeft p{
+font-size: 30px;
+margin: 10px;
+}
+.innerLeft button{
+padding: 10px 30px;
+
+}

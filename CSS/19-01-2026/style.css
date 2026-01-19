@@ -1,0 +1,7 @@
+/* ul{
+    list-style-image: url('./../16-01-2026/images/Item.png');
+} */
+ li{
+    /* list-style-position: inside; */
+    list-style: inside circle;
+ }
