@@ -1,0 +1,53 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* https://leannezhang.medium.com/difference-between-css-position-absolute-versus-relative-35f064384c6 */
+.card{
+    width:400px ;
+    height: 500px;
+    position: relative;
+
+}
+.card > img{
+    width: 100%;
+    height: 500px;
+}
+button{
+    padding: 10px 20px;
+    font-size: larger;
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+#wh{
+    position: fixed;
+    /* z-index: 10;
+    top: 30px;
+    right: 30px; */
+}
+h1{
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    padding: 30px;
+    z-index: 10;
+}
+p{
+    position: relative;
+    top: 100px;
+}
+#float{
+    border: 2px solid black;
+    height: 400px;
+}
+#right{
+    background-color: red;
+    color: white;
+    border: 4px solid black;
+    width: 200px;
+    float: right;
+}
